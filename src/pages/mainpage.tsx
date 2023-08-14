@@ -1,6 +1,7 @@
 import AboutMe from "../components/aboutme";
 import Home from "../components/home";
 import Navbar from "../components/navbar";
+import Projects from "../components/projects";
 import SideNavbar from "../components/sideNavbar";
 import { useState } from "react";
 
@@ -14,6 +15,7 @@ export default function Mainpage()  {
             <SideNavbar setVisible={setVisible} width={visible}/>
             <Home/>
             <AboutMe/>
+            <Projects/>
         </div>
     );
 }
