@@ -2,7 +2,7 @@ import Project from "./project";
 
 export default function Projects(){
     return (
-        <div className="flex flex-col items-center">
+        <div id="projects" className="flex flex-col items-center">
             <div className="text-blue-600 text-xl font-extrabold mb-8">Portfolio</div>
             <div className="font-bold text-lg mb-10">These are a few of the projects that I've done</div>
             <Project 

@@ -4,7 +4,7 @@ import github from "./icons2";
 export default function Home(){
     
     return (
-        <div>
+        <div id="home">
             <div className="flex m-8 mt-40 flex-col items-center justify-center [&>div]:mb-16">
                 <div>
                     <div className="text-4xl font-bold text-center mb-6">Software Developer</div>

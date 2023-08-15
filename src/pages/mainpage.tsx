@@ -1,4 +1,6 @@
 import AboutMe from "../components/aboutme";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
 import Home from "../components/home";
 import Navbar from "../components/navbar";
 import Projects from "../components/projects";
@@ -16,6 +18,8 @@ export default function Mainpage()  {
             <Home/>
             <AboutMe/>
             <Projects/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }
