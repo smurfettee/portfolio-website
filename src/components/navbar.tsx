@@ -15,7 +15,7 @@ export default function Navbar(props:props) {
             <div className="hidden md:flex md:gap-5 [&>a]:cursor-pointer text-lg font-bold text-gray-700">
                 <Link className="hover:text-blue-600 duration-200"  to="home" onClick={() => {props.setVisible("hidden")}} smooth={true} duration={1000}>Home</Link>
                 <Link className="hover:text-blue-600 duration-200" offset={-50} to="about" onClick={() => {props.setVisible("hidden")}} smooth={true} duration={1000}>About</Link>
-                <Link className="hover:text-blue-600 duration-200" to="projects" onClick={() => {props.setVisible("hidden")}} smooth={true} duration={1000}>Projects</Link>
+                <Link className="hover:text-blue-600 duration-200" offset={-150} to="projects" onClick={() => {props.setVisible("hidden")}} smooth={true} duration={1000}>Projects</Link>
                 <Link className="hover:text-blue-600 duration-200" to="contact" onClick={() => {props.setVisible("hidden")}} smooth={true} duration={1000}>Contact</Link>
             </div>
         </div>

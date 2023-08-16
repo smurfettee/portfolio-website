@@ -24,3 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #696969;
 }
+
+#projectText::-webkit-scrollbar {
+    display: none;
+}

@@ -9,9 +9,9 @@ interface props {
 
 export default function Project(props:props){
     return (
-        <div className="flex flex-col items-center m-8 p-4 rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.1)] [&>div]:mb-5">
+        <div className="flex flex-col items-center m-8 p-4 rounded-lg shadow-[0_0_10px_rgba(0,0,0,0.1)] [&>div]:mb-5 md:w-1/3 md:h-96">
             <div className="text-xl font-bold ">{props.name}</div>
-            <div className="text-gray-600 text-center w-[90%] ">{props.content}</div>
+            <div id="projectText" className="text-gray-600 text-center w-[90%] md:h-3/4 md:overflow-auto duration-500">{props.content}</div>
             <div className="flex flex-wrap">
                 {
                     props.technologies.map(tech => (
