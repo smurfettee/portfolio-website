@@ -5,7 +5,7 @@ export default function AboutMe(){
             <div className="[&>div]:m-4 flex items-center justify-center flex-col md:items-start md:[&>div]:m-2">
                 <div className="text-blue-600 text-xl font-extrabold">ABOUT ME</div>
                 <div className=" font-bold text-lg md:text-start">A dedicated Software Engineer based in Torino, Italy.</div>
-                <div className="text-gray-600 w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt, orci ac elementum pretium, eros mi consectetur diam, sed volutpat sapien purus id nunc. Quisque fermentum vulputate tortor id ornare. Sed et nulla et quam vehicula finibus. Aenean ut bibendum mauris, a tempor massa. Curabitur dapibus, turpis a volutpat semper, urna ipsum condimentum orci, quis interdum augue nulla at odio. Nulla at placerat justo.</div>
+                <div className="text-gray-600 md:w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt, orci ac elementum pretium, eros mi consectetur diam, sed volutpat sapien purus id nunc. Quisque fermentum vulputate tortor id ornare. Sed et nulla et quam vehicula finibus. Aenean ut bibendum mauris, a tempor massa. Curabitur dapibus, turpis a volutpat semper, urna ipsum condimentum orci, quis interdum augue nulla at odio. Nulla at placerat justo.</div>
             </div>
         </div>
     );

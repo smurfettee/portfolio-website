@@ -9,7 +9,7 @@ interface props {
 export default function Navbar(props:props) {
 
     return (
-        <div className="flex w-full bg-white justify-between shadow-md [&>div]:m-8 items-center fixed top-0">
+        <div className="flex w-screen bg-white justify-between shadow-md [&>div]:m-8 items-center fixed top-0">
             <div className="text-[rgb(49,50,54)] text-2xl font-semibold">Ege.dev</div>
             <div onClick={() => {props.setVisible(""); }} className="text-[rgb(49,50,54)] cursor-pointer text-2xl font-semibold md:hidden">&#9776;</div>
             <div className="hidden md:flex md:gap-5 [&>a]:cursor-pointer text-lg font-bold text-gray-700">
