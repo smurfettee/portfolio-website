@@ -1,9 +1,12 @@
 export default function AboutMe(){
     return (
-        <div id="about" className="flex flex-col items-center text-center [&>div]:m-4 mb-40 bg-[rgb(243,243,243)]">
-            <div className="text-blue-600 text-xl font-extrabold">ABOUT ME</div>
-            <div className="text-center font-bold text-lg">A dedicated Software Engineer based in Torino, Italy.</div>
-            <div className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt, orci ac elementum pretium, eros mi consectetur diam, sed volutpat sapien purus id nunc. Quisque fermentum vulputate tortor id ornare. Sed et nulla et quam vehicula finibus. Aenean ut bibendum mauris, a tempor massa. Curabitur dapibus, turpis a volutpat semper, urna ipsum condimentum orci, quis interdum augue nulla at odio. Nulla at placerat justo. Sed gravida, dolor quis iaculis commodo, ipsum eros facilisis lorem, id ullamcorper tellus ipsum quis leo. Nam enim mauris, lacinia eget imperdiet quis, lacinia eu sapien. Praesent a sem sagittis, fringilla eros at, facilisis mauris. Sed lobortis tellus in sodales efficitur. Nulla ultricies felis nulla, luctus aliquet nisi viverra ut. Mauris id leo ac odio consectetur laoreet. Aenean eu imperdiet ligula. Nullam vel suscipit dolor. Proin sit amet consequat ante.</div>
+        <div id="about" className="flex flex-col items-center text-center  mb-40 bg-[rgb(243,243,243)] md:flex-row md:justify-center md:text-start md:p-40">
+            <div className="w-80 h-56 bg-no-repeat bg-cover rounded-lg m-4 md:w-[28rem] md:h-80" style={{backgroundImage: "url('https://animesher.com/orig/0/35/350/3507/animesher.com_suzumiya-haruhi-no-yuutsu-gif-yuki-nagato-350766.gif')"}}></div>
+            <div className="[&>div]:m-4 flex items-center justify-center flex-col md:items-start md:[&>div]:m-2">
+                <div className="text-blue-600 text-xl font-extrabold">ABOUT ME</div>
+                <div className=" font-bold text-lg md:text-start">A dedicated Software Engineer based in Torino, Italy.</div>
+                <div className="text-gray-600 w-96">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt, orci ac elementum pretium, eros mi consectetur diam, sed volutpat sapien purus id nunc. Quisque fermentum vulputate tortor id ornare. Sed et nulla et quam vehicula finibus. Aenean ut bibendum mauris, a tempor massa. Curabitur dapibus, turpis a volutpat semper, urna ipsum condimentum orci, quis interdum augue nulla at odio. Nulla at placerat justo.</div>
+            </div>
         </div>
     );
 }

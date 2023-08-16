@@ -4,8 +4,8 @@ import github from "./icons2";
 export default function Home(){
     
     return (
-        <div id="home">
-            <div className="flex m-8 mt-40 flex-col items-center justify-center [&>div]:mb-16">
+        <div id="home" className="p-1">
+            <div className="flex m-8 mt-56 flex-col items-center justify-center [&>div]:mb-16 md:mb-24">
                 <div>
                     <div className="text-4xl font-bold text-center mb-6">Software Developer</div>
                     <div className="text-gray-600 text-center mb-8">Hi, I'm Ege Karacetin. A passionate Software Developer based in Italy.</div>
@@ -14,10 +14,12 @@ export default function Home(){
                         <a className="hover:text-blue-500 duration-200" target="_blank" href="https://github.com/smurfettee">{github}</a>
                     </div>
                 </div>
-                <div className="flex flex-col">
-                    <div className="text-center">Tech Stack</div>
-                    <div className="bg-gray-600 h-0.5 rounded-3xl mt-2 w-20 self-center mb-5"></div>
-                    <div className="flex flex-wrap justify-center [&>div]:flex [&>div]:items-center [&>div]:m-2 [&>div]:rounded-full [&>div]:shadow-[0_0_10px_rgba(0,0,0,0.09)]">
+                <div className="flex flex-col mt-10">
+                    <div className="text-center md:hidden">Tech Stack</div>
+                    <div className="bg-gray-600 h-0.5 rounded-3xl mt-2 w-20 self-center mb-5 md:hidden"></div>
+                    <div className="flex flex-wrap justify-center [&>div]:flex [&>div]:items-center [&>div]:justify-center [&>div]:w-20 [&>div]:h-20 [&>div]:rounded-full [&>div]:shadow-[0_0_10px_rgba(0,0,0,0.09)] gap-3">
+                        <span className="hidden md:inline self-center ">Tech Stack</span>
+                        <span className="hidden md:inline self-center w-0.5 h-8 bg-gray-600 mr-10"></span>
                         <div>
                             <img className="w-12 h-12 m-3" src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png"></img>
                         </div>
