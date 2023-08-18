@@ -15,7 +15,7 @@ export default function Project(props:props){
             <div className="flex flex-wrap">
                 {
                     props.technologies.map(tech => (
-                        <div className="m-2 shadow-[0_0_10px_rgba(0,0,0,0.1)] rounded-lg p-2 font-bold">{tech}</div>
+                        <div className="m-2 shadow-[0_0_10px_rgba(0,0,0,0.1)] rounded-lg p-2 font-bold ">{tech}</div>
                     ))
                 }
             </div>
