@@ -11,6 +11,7 @@ export default function Projects(){
                     content="Coinsafe is a website that allows users to search for information about various cryptocurrencies in real-time. The website is designed to provide users with accurate and up-to-date information about the price, market cap, trading volume, and other key metrics of cryptocurrencies."
                     technologies={["React", "Tailwind"]}
                     github="https://github.com/smurfettee/Crypto-Site"
+                    live="https://coinsafe.vercel.app"
                 />
                 <Project
                     name="Personal Blog"
